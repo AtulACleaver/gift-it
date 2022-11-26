@@ -1,0 +1,77 @@
+.app-container{
+    padding: 3rem;
+}
+.heading{
+    margin: 0 0 10px 0;
+    padding: 3.5rem 0;
+}
+
+.heading-text{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 25px;
+    background-color: var(--secondary-accent-color);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    color: white;
+}
+
+.card-innercard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem;
+    margin: 1rem;
+    border-radius: 50px;
+    width: 90%;
+    background-color: var(--accent-color);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+.card-greetings{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-button{
+    all: unset;
+    padding: .8rem 1.2rem;
+    border-radius: 50px;
+    background-color: var(--text-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid var(--text-color);
+    transition: all .3s ease-in-out;
+}
+
+.card-button:hover{
+    background-color: white;
+    color: var(--text-color);
+}
+
+.card-table{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    color: var(--text-color);
+    width: 90%;
+    height: 40rem;
+}
+

@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from './components/Navbar.jsx';
-import Heading from './components/Heading.jsx';
 import Container from './components/Container.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -22,7 +21,6 @@ function App() {
       - Footer
       */}
       <Navbar />
-      <Heading />
       <Container />
       <Footer />
     </div>

@@ -10,9 +10,11 @@
     --bg-color: #FFE6E5;
     --accent-color: #FF5C58;
     --text-color: #303030;
+    --secondary-accent-color: #212121;
 }
 
 body{
     font-family: 'Syne', sans-serif;
     background-color: var(--bg-color);
+    color: var(--text-color);
 }
