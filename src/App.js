@@ -1,11 +1,14 @@
 import React from "react";
-
+import Navbar from './components/Navbar.jsx';
+import Heading from './components/Heading.jsx';
+import Container from './components/Container.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div className="App">
       {/* 
-      - Navbar
+      ✅ Navbar
         - Logo
         - Title
         - About Me

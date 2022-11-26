@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #FFE6E5;
+    --accent-color: #FF5C58;
+    --text-color: #303030;
+}
+
+body{
+    font-family: 'Syne', sans-serif;
+    background-color: var(--bg-color);
+}
