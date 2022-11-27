@@ -1,0 +1,18 @@
+[
+    {
+        "name": "iPhone 14 pro max",
+        "url": "https://www.amazon.in/Apple-iPhone-Pro-Max-256GB/dp/B08L5VZQZ6/ref=sr_1_1?dchild=1&keywords=iphone+14&qid=1631620001&sr=8-1",
+        "idealPrice": 100000
+    },
+    {
+        "name": "iPhone 14 pro",
+        "url": "https://www.amazon.in/Apple-iPhone-Pro-256GB-Storage/dp/B08L5VZQZ6/ref=sr_1_1?dchild=1&keywords=iphone+14&qid=1631620001&sr=8-1",
+        "idealPrice": 90000
+    },
+    {
+        "name": "iPhone 14",
+        "url": "https://www.amazon.in/Apple-iPhone-Pro-256GB-Storage/dp/B08L5VZQZ6/ref=sr_1_1?dchild=1&keywords=iphone+14&qid=1631620001&sr=8-1",
+        "idealPrice": 70000
+    }
+    
+]
