@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2121213a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    padding: 0 2rem
+}
+
+.popup-inner{
+    position: relative;
+    padding: 2.2rem;
+    width: 95%;
+    max-width: 640px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.popup-inner .close-btn{
+    all: unset;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    padding: 5px 13px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    color: white;
+    background-color: var(--accent-color);
+    font-family: 'Fredoka One', cursive;
+}
+
+.popup-content-input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.input-label{
+    padding: 1.1rem 0 .2rem .2rem;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.popup-content-input-field{
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    padding: .8rem 1rem;
+    font-size: 1.1rem;
+}
+
+.price{
+    font-family: 'Inter', sans-serif;
+}
+
+.popup-content-submit{
+    margin: 4rem 0 0 0;
+    padding: 1rem 0;
+    border: 3px solid var(--accent-color);
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    background-color: var(--accent-color);
+    transition: .3s ease-in-out;
+}
+
+.popup-content-submit:hover{
+    background-color: white;
+    color: var(--accent-color);
+}

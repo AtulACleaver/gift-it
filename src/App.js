@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from './components/Navbar.jsx';
-import Container from './components/Container.jsx';
-import Footer from './components/Footer.jsx';
+import Navbar from "./components/Navbar.jsx";
+import Container from "./components/Container.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
+
   return (
     <div className="App">
       {/* 
@@ -12,13 +13,13 @@ function App() {
         - Title
         - About Me
         - My Journey
-      - Heading
-      - Container
+      ✅ Heading
+      ✅ Container
         - Hey Atul!!
         - Add Item
         - List
         - Popup form
-      - Footer
+      ✅ Footer
       */}
       <Navbar />
       <Container />
